@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Starship Schedule</title>
+    <!--Linking Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+    <!--Linking Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <!--Linking Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <div class="jumbotron">
+            <h6 class="text-center">Welcome to</h6>
+            <h1 class="text-center">Docking Bay 3</h1>
+            <h4 class="text-center">Starship Arrival Scheduler </h4>
+            </h5>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-header">
+                    <h5>Current Starship Schedule</h5>
+                </div>
+
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Starship Name:</th>
+                                <th scope="col">Destination:</th>
+                                <th scope="col">Frequency (Min):</th>
+                                <th scope="col">Next Arrival:</th>
+                                <th scope="col">Minutes Away:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Add Starship</h4>
+                    </div>
+
+                    <div class="card-body">
+                        <form role="form">
+                            <div class="form-class">
+                                <label for="search">Starship Name:</label>
+                                <input type="text" class="form-control" id="train-name">
+                            </div>
+                            <br>
+                            <div class="form-class">
+                                <label for="search">Destination:</label>
+                                <input type="text" class="form-control" id="destination">
+                            </div>
+                            <br>
+                            <div class="form-class">
+                                <label for="search">First Starship Time (HH:mm):</label>
+                                <input type="time" class="form-control" id="first-train">
+                            </div>
+                            <br>
+                            <div class="form-class">
+                                <label for="search">Frequency (min):</label>
+                                <input type="text" class="form-control" id="frequency">
+                            </div>
+                            <br>
+                            <button class="btn btn-primary" type="submit" id="form-submit">Schedule Starship</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <!--Linking Momentjs-->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <!--Linking Javascript-->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
