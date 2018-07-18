@@ -1,0 +1,38 @@
+body{
+    background-image: url("../images/1.jpg");
+    background-size: cover;
+}
+.jumbotron{
+    background-color: darkblue;
+    color: gainsboro;
+    font-family: 'Orbitron', sans-serif;
+    border: solid 5px lightslategray;
+}
+
+h1{
+    font-size: 72px;
+    text-decoration: underline;
+}
+
+.card-header{
+    background-color: darkblue;
+    color: gainsboro;
+    font-family: 'Play', sans-serif;
+    border: solid 5px lightslategray;
+}
+
+.card-body{
+    background-color: lightgray;
+    font-family: 'Exo', sans-serif;
+}
+
+.btn-primary{
+    background-color: darkblue;
+    color: gainsboro;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.table{
+    text-align: center; 
+    vertical-align: middle;
+}

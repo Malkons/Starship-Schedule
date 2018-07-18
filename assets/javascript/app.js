@@ -17,6 +17,8 @@ var destination = "";
 var firstTime = 0;
 var frequency = 0;
 
+
+
 // event listener for the submit button
 $("#form-submit").on("click", function (event) {
 
