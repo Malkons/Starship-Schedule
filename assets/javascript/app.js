@@ -85,8 +85,6 @@ database.ref().on("child_added", function (snapshot) {
         $("<td>").text(newFrequency),
         $("<td>").text(moment(nextTrain).format("hh:mm a")),
         $("<td>").text(tMinutesTillTrain)
-
-
     );
 
     // append the row to the website
