@@ -24,4 +24,4 @@ Starship-Shedule
 
 Scroll down to enter in a new ship.  Time is set with AM/PM.  Click the Blue "Schedule Starship" button to submit a ship.
 
-![ScreenShot](assets/images/StarshipScreenShot.png)
+![ScreenShot](assets/images/StarshipScreenshot.png)
